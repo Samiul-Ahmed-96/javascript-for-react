@@ -3,10 +3,10 @@ num = 44;
 
 const myName = 'Samiul Ahmed';
 
-if(num === 44){
-    console.log('Right ');
+if(num === 44 && myName === 'samiul ahmed'){
+    // console.log('Right ');
 }else{
-    console.log('Wrong');
+    // console.log('Wrong');
 }
 
 const numbers = [12,26,55,23,57,21,74];
@@ -14,5 +14,20 @@ const numbersLength = numbers.length;
 
 numbers.push(55);
 numbers[1] = 32;
+const secondELement = numbers.indexOf(55);
 
-console.log(numbers,numbersLength);
+ if(numbers.includes(3000)){
+    //  console.log('FIND');
+ }else{
+    //  console.log('NOT HERE')
+ }
+
+ for(let i = 0 ; i < numbers.length ; i++){
+    //  console.log(numbers[i]);
+ }
+
+// const totalElement = numbers.map(n => console.log(n))
+ const findEle = numbers.filter(n =>  n < 50);
+//  console.log(findEle);
+
+// console.log(secondELement);
