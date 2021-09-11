@@ -7,10 +7,10 @@ const student = {
 }
 const studentJSON = JSON.stringify(student);
 // console.log(student);
-// console.log(studentJSON);
+console.log(studentJSON);
 
 const studentObj = JSON.parse(studentJSON);
-// console.log(studentObj);
+console.log(studentObj);
 
 
 //2. fetch
