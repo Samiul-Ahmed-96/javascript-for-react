@@ -27,7 +27,14 @@ const secondELement = numbers.indexOf(55);
  }
 
 // const totalElement = numbers.map(n => console.log(n))
- const findEle = numbers.filter(n =>  n < 50);
-//  console.log(findEle);
+const findEle = numbers.filter(n =>  n < 50);
+const firstEle = numbers.find(n => n > 60);
+//  console.log(firstEle);
 
 // console.log(secondELement);
+
+let x = 0
+while(x<=20){
+    // console.log(x);
+    x++;
+}
